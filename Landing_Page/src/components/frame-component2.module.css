@@ -1,0 +1,129 @@
+.scooterAnimationIcon {
+  height: 491px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 426px;
+  z-index: 4;
+}
+.about1,
+.turantlo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 87px;
+  z-index: 3;
+}
+.turantlo {
+  color: var(--white);
+  text-align: center;
+  min-width: 121px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-5xs);
+}
+.theAppThat,
+.withOurCuttingEdge {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  z-index: 3;
+}
+.withOurCuttingEdge {
+  height: 140px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.description {
+  align-self: stretch;
+  gap: var(--gap-base);
+  font-size: var(--paragraph-large-size);
+  color: var(--white);
+}
+.about,
+.description,
+.titleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.titleParent {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.about {
+  width: 568px;
+  padding: 0 0 var(--padding-29xl);
+  box-sizing: border-box;
+  min-width: 568px;
+  min-height: 408px;
+  max-width: 100%;
+}
+.scooter,
+.scooterWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.scooter {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-25xl);
+}
+.scooterWrapper {
+  width: 1298px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-large-size);
+  color: var(--blue-shade-level-2);
+  font-family: var(--paragraph-large);
+}
+@media screen and (max-width: 1050px) {
+  .about1,
+  .turantlo {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .about {
+    flex: 1;
+  }
+  .scooter {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .about,
+  .scooterAnimationIcon {
+    min-width: 100%;
+  }
+  .scooter {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .about1,
+  .turantlo {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .about {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}

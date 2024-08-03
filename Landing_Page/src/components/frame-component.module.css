@@ -1,0 +1,73 @@
+.newLogo1 {
+  align-self: stretch;
+  width: 127px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 24px;
+}
+.contactUs,
+.home {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 20px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 43px;
+}
+.contactUs {
+  left: 83px;
+  min-width: 79px;
+  white-space: nowrap;
+}
+.links {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+}
+.navigation,
+.newLogo1Parent {
+  display: flex;
+  align-items: flex-start;
+}
+.navigation {
+  width: 162px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.newLogo1Parent {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-xl);
+  gap: var(--gap-812xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--labels-medium-size);
+  color: var(--black-level-1);
+  font-family: var(--paragraph-large);
+}
+@media screen and (max-width: 1125px) {
+  .newLogo1Parent {
+    gap: var(--gap-396xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .newLogo1Parent {
+    gap: var(--gap-189xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .newLogo1Parent {
+    gap: var(--gap-85xl);
+  }
+}

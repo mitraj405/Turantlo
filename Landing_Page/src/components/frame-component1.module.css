@@ -1,0 +1,124 @@
+.pharmacyApp,
+.turantloIndias10 {
+  margin: 0;
+  position: relative;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.turantloIndias10 {
+  width: 425px;
+  font-size: inherit;
+  line-height: 40px;
+  display: inline-block;
+  max-width: 100%;
+}
+.pharmacyApp {
+  font-size: var(--display-large-size);
+  line-height: 112px;
+  color: var(--primary-blue);
+}
+.comingSoonTo {
+  width: 425px;
+  position: relative;
+  font-size: var(--paragraph-large-size);
+  line-height: 28px;
+  color: var(--blue-shade-level-3);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.turantloIndias10MinuteParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameChild {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: var(--br-21xl);
+}
+.notifyMe {
+  position: relative;
+  font-size: var(--labels-medium-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--paragraph-large);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 70px;
+}
+.frameParent,
+.notification {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.frameParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-base);
+  background-color: var(--primary-blue);
+  width: 158px;
+  border-radius: var(--br-101xl);
+  flex-direction: row;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.description,
+.descriptionWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.description {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.descriptionWrapper {
+  width: 951px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-93xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-large-size);
+  color: var(--green-level-1);
+  font-family: var(--paragraph-large);
+}
+@media screen and (max-width: 1050px) {
+  .turantloIndias10 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .pharmacyApp {
+    font-size: var(--font-size-29xl);
+    line-height: 67px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .description {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .turantloIndias10 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .pharmacyApp {
+    font-size: var(--font-size-10xl);
+    line-height: 45px;
+  }
+  .descriptionWrapper {
+    padding-bottom: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}
